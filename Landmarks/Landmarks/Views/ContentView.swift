@@ -39,7 +39,7 @@ struct ContentView: View {
     }
 }
 
-#Preview {
+#Preview("Hello World!") {
     ContentView()
 }
 
