@@ -26,7 +26,7 @@ struct LandmarkListView: View {
                 
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
-                        LandmarkDetailView(landmark: landmark)
+                        LandmarkDetail(landmark: landmark)
                     }
                     label: {
                         LandmarkRow(landmark: landmark)
