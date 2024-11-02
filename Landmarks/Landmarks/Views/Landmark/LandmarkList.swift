@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LandmarkListView: View {
+struct LandmarkList: View {
     @Environment(ModelData.self) var modelData
     @State private var showFavoritesOnly = false;
     
@@ -42,6 +42,6 @@ struct LandmarkListView: View {
 }
 
 #Preview {
-    LandmarkListView()
+    LandmarkList()
         .environment(ModelData())
 }

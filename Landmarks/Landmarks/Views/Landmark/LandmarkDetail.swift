@@ -30,7 +30,7 @@ struct LandmarkDetail: View {
                 HStack {
                     Text(landmark.name)
                         .font(.title)
-                    FavoriteButtonView(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
                 
                 HStack {
